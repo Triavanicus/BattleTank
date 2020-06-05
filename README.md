@@ -34,3 +34,14 @@ Later-on we'll want to add visual flare
 ### Music
 
 Background music to create tension
+
+## Controls
+
+| Intention            | Manual Control           | Fly-by-Wire Control                    | Actuator(s)                        |
+|----------------------|--------------------------|----------------------------------------|------------------------------------|
+| Forward              | Symmetric Triggers       | Left Stick Forward *or W Key*          | Both Tracks Forward - Same Speed   |
+| Backwards / Breaking | Symmetric Bumbers        | Left Stick backward *or S Key*         | Both Tracks Backwards - Same Speed |
+| Strafe               | N/A                      | N/A                                    | N/A "You can't strafe a tank fool" |
+| Rotate Body          | A-Sym Triggers / Bumpers | Left Stick Left / Right *or A/D Keys*  | Tracks - Different Speeds          |
+| Rotate Turret        | N/A                      | Look & Aim with Right Stick *or Mouse* | Turret Rotator                     |
+| Elevate Barrel       | N/A                      | Look & Aim with Right Stick *or Mouse* | Barrel Elevator                    |
