@@ -7,7 +7,11 @@
 		{
 			"Name": "BattleTank",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule"
+			]
 		}
 	],
 	"Plugins": [
@@ -30,5 +34,11 @@
 				"Android"
 			]
 		}
+	],
+	"TargetPlatforms": [
+		"AllDesktop",
+		"WindowsNoEditor",
+		"LinuxAArch64NoEditor",
+		"MacNoEditor"
 	]
 }
